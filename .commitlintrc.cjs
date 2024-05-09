@@ -4,6 +4,7 @@ module.exports = {
   prompt: {
     useEmoji: true,
     emojiAlign: true,
+    allowCustomScopes: false,
     messages: {
       type: "选择你要提交的类型 :",
     },
@@ -14,14 +15,11 @@ module.exports = {
       { value: "docs", name: "docs: 文档更新 | Documentation only changes" },
       {
         value: "refactor",
-        name: "refactor: 代码重构 | neither fixes a bug nor adds a feature",
+        name: "refactor: 代码重构 | neither fixes nor adds a feature",
       },
 
       { value: "perf", name: "perf: 性能提升 | improve performance" },
-      {
-        value: "test",
-        name: "test: 测试相关 | Adding missing tests or correcting existing tests",
-      },
+      { value: "test", name: "test: 测试相关 | Adding tests" },
       {
         value: "build",
         name: "build:构建相关 | build system or external dependencies",
