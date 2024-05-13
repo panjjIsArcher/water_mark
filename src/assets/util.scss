@@ -1,0 +1,15 @@
+$nameSpace: util;
+
+.#{$nameSpace}_container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  .#{$nameSpace}_water_mark {
+    transform-origin: center;
+    transform: rotate(-30deg);
+    pointer-events: none;
+  }
+}
