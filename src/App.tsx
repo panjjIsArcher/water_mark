@@ -1,10 +1,8 @@
 
-
+import WaterMark from "./utils/utils"
 function App() {
-
-  return (
-    <div>vite test</div>
-  )
+	WaterMark.createWaterMark("water-mark")
+  return
 }
 
 export default App
