@@ -3,11 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": {
+    "name": "潘家杰",
+    "email": "panjiajie0911@gmail.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panjjIsArcher/water_mark.git"
   },
   "dependencies": {
     "react": "^18.2.0",
