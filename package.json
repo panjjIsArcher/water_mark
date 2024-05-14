@@ -1,6 +1,6 @@
 {
-  "name": "water-mark",
-  "private": true,
+  "name": "@panjiajie/water-mark",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "author": {
