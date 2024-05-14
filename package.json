@@ -1,15 +1,19 @@
 {
   "name": "@panjiajie/water-mark",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.1.2",
   "type": "module",
   "author": {
     "name": "潘家杰",
     "email": "panjiajie0911@gmail.com"
   },
+  "files": [
+    "dist/*"
+  ],
+  "main": "dist/water-mark.umd.cjs",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build && tsc",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
