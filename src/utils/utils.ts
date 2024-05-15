@@ -53,8 +53,10 @@ const adaptStyle = (opt: Opt): string => {
   const col = opt.col || 4;
   const row = opt.row || 4;
   const fontSize = opt.fontSize || "15px";
+  const fontFamily = opt.fontFamily;
   return `color:${opt.color};
 	font-size:${fontSize};
+	font-family:${fontFamily};
 	grid-template-columns:repeat(${col}, ${100 / col}%);
 	grid-template-rows: repeat(${row}, ${100 / row}%);`;
 };
